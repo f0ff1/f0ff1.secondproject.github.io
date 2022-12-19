@@ -156,7 +156,7 @@ button:hover {
 
 }
 
-.my-name-div strong {
+.my-name {
     font-family: 'Gilroy-Bold';
     font-size: 47px;
     color: #070707;
@@ -190,4 +190,36 @@ button:hover {
 
 .header-my-photo {
     margin-bottom: 104px;
+}
+
+.about-me-items {
+    width: 485px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.first-block-about {
+    padding-top: 27px;
+}
+
+.second-block-about {
+    padding-top: 37px;
+    width: 400px;
+}
+
+.third-block-about {
+    padding-top: 37px;
+    width: 315px;
+}
+
+.about-me {
+    background: #F6F6F6;
+    padding: 120px 0 107px 0;
 }
