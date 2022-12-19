@@ -15,4 +15,6 @@
 <div id="counter" align="center"> 
   <img src="https://komarev.com/ghpvc/?username=your-github-f0ff1&style=for-the-badge&color=blue" alt=""/>
 </div>
-
+<div align="center">
+  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+</div>
