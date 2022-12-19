@@ -10,8 +10,5 @@
   </a>
   <a src="https://www.facebook.com/WeaslyPptony/">
     <img src="https://img.shields.io/badge/-Facebook-blue?logo=facebook&logoColor=white&style=for-the-badge" alt="Twitter Badge"/>
-  </a>
-  
-  
-  
+  </a>  
 </div>
