@@ -51,6 +51,6 @@
 
 <img src="http://github-readme-streak-stats.herokuapp.com?user=f0ff1&theme=dark&background=000000)](https://git.io/streak-stats">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)">
 
 
