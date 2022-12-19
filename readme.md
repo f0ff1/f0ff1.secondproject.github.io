@@ -12,4 +12,7 @@
     <img src="https://img.shields.io/badge/-Facebook-blue?logo=facebook&logoColor=white&style=for-the-badge" alt="Twitter Badge"/>
   </a>  
 </div>
-<img src="https://komarev.com/ghpvc/?username=your-github-f0ff1&style=for-the-badge&color=red" alt=""/>
+<div id="counter" align="center"> 
+  <img src="https://komarev.com/ghpvc/?username=your-github-f0ff1&style=for-the-badge&color=red" alt=""/>
+</div>
+
