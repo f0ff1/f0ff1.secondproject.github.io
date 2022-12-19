@@ -1,0 +1,193 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+/* Указываем box sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Убираем внешние отступы */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+
+article>*+* {
+    margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gilroy-Medium';
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+
+/*-----------------------------------------------------------*/
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-list-item a {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    color: #828282;
+}
+
+.header-nav-list-item a:focus {
+    color: #070707;
+}
+
+.header-navigation {
+    border-bottom: 2px solid rgba(130, 130, 130, 0.5);
+    padding-bottom: 32px;
+    padding-top: 33px;
+    margin-bottom: 39px;
+
+}
+
+.header-main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+.my-name-div {
+    width: 124px;
+
+}
+
+.my-name-div strong {
+    font-family: 'Gilroy-Bold';
+    font-size: 47px;
+    color: #070707;
+    line-height: 59px;
+}
+
+.small-info {
+    width: 156px;
+    color: #070707;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.select-language-btn {
+    font-family: 'Gilroy-Bold';
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.select-language-btn p {
+    text-align: right;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.active-lang {
+    color: #000;
+}
+
+.header-my-photo {
+    margin-bottom: 104px;
+}
