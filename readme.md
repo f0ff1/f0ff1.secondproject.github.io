@@ -24,7 +24,7 @@
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
 </div>
-<div>
+
     ### :man_technologist: About Me :
   
 - :telescope: I'am studying web development. I make up websites.
@@ -34,6 +34,6 @@
 - :zap: In my free time I do sports and spend time with my family.
 
 - :mailbox:How to reach me: [![Instagram Badge](https://img.shields.io/badge/-Instagram-E1306C?logo=instagram&logoColor=white&style=for-the-badge)](your-instagram-url)
-  </div>
+
   ### :hammer_and_wrench: Languages and Tools :
 
