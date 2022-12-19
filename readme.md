@@ -13,6 +13,6 @@
   </a>  
 </div>
 <div id="counter" align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=your-github-f0ff1&style=for-the-badge&color=red" alt=""/>
+  <img src="https://komarev.com/ghpvc/?username=your-github-f0ff1&style=for-the-badge&color=blue" alt=""/>
 </div>
 
