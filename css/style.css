@@ -112,10 +112,17 @@ button:hover {
     cursor: pointer;
 }
 
+p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
 .container {
     width: 950px;
     margin: 0 auto;
     padding: 0 5px;
+    text-align: center;
 }
 
 
@@ -156,6 +163,13 @@ button:hover {
 
 }
 
+.heading-two {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+
 .my-name {
     font-family: 'Gilroy-Bold';
     font-size: 47px;
@@ -166,8 +180,7 @@ button:hover {
 .small-info {
     width: 156px;
     color: #070707;
-    font-size: 18px;
-    line-height: 22px;
+    text-align: left;
 }
 
 .select-language-btn {
@@ -199,7 +212,6 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     font-size: 18px;
     line-height: 22px;
     color: #070707;
@@ -228,7 +240,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .skills-programs-list {
@@ -257,17 +268,8 @@ button:hover {
 
 .skills-text h2 {
     margin-bottom: 69px;
-    font-family: 'Gilroy-Bold';
-    font-size: 34px;
-    line-height: 42px;
-    color: #070707;
 }
 
-.skills-text p {
-    font-size: 18px;
-    line-height: 22px;
-    color: #070707;
-}
 
 .skills-text {
     margin-bottom: 82px;
@@ -284,4 +286,64 @@ button:hover {
 
 .non_active svg {
     fill: #E5E5E5;
+}
+
+.portfolio {
+    background: #F6F6F6;
+    padding-top: 113px;
+}
+
+.portfolio-list-item figcaption {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #070707;
+    padding-top: 45px;
+}
+
+.portfolio-list-item {
+    padding-bottom: 99px;
+}
+
+.portfolio-items h2 {
+    margin-bottom: 47px;
+}
+
+footer {
+    padding: 114px 0 123px 0;
+}
+
+.footer-items {
+    width: 342px;
+    margin: 0 auto;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-me {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-top: 46px;
+}
+
+.footer-items h2 {
+    margin-bottom: 20px;
+}
+
+.welcom {
+    margin-bottom: 30px;
+}
+
+.footer-items button {
+    margin-bottom: 86px;
+    background-color: #070707;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 30px;
+    padding: 12px 30px 12px 30px;
 }
