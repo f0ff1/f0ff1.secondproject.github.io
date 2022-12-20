@@ -178,7 +178,7 @@ button:hover {
     color: #828282;
 }
 
-.select-language-btn p {
+.full-text-in-btn {
     text-align: right;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -222,4 +222,66 @@ button:hover {
 .about-me {
     background: #F6F6F6;
     padding: 120px 0 107px 0;
+}
+
+.skills-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-programs-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.skills-programs-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars-list {
+    display: flex;
+    width: 166px;
+    justify-content: space-between;
+
+}
+
+.skills {
+    padding: 91px 0 110px 0;
+}
+
+.skills-text h2 {
+    margin-bottom: 69px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+
+.skills-text p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.skills-text {
+    margin-bottom: 82px;
+}
+
+.skills-programs-item figcaption {
+    width: 80px;
+    margin: 27px 0 41px 0;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.non_active svg {
+    fill: #E5E5E5;
 }
