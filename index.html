@@ -5,746 +5,340 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Document</title>
 </head>
 
-<body>
-    <h1 class=" visually-hidden ">Shopno agency</h1>
-    <header>
-        <section class="header-panel">
-            <h2 class="visually-hidden">Header up panel</h2>
-            <div class="container">
-                <nav class="main-navigation">
-                    <div class="logotype">
-                        <a href="#" class="logo">
-                            <p>sh<span>o</span>pno</p>
-                        </a>
-                    </div>
-                    <!-- <button class="menu-button">
-                        <img src="img/menu.png" alt="menu button image" width="30" height="30">
-                    </button> -->
-                    <div class="hamburger-menu">
-                        <input id="menu__toggle" type="checkbox" />
-                        <label class="menu__btn" for="menu__toggle">
-                            <span></span>
-                        </label>
-                        <ul class="menu__box">
-                            <li><a class="menu__item" href="#">Главная</a></li>
-                            <li><a class="menu__item" href="#">Проекты</a></li>
-                            <li><a class="menu__item" href="#">Команда</a></li>
-                            <li><a class="menu__item" href="#">Блог</a></li>
-                            <li><a class="menu__item" href="#">Контакты</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="header-main-text ">
-                    <p>Say hello to <span>shopno!</span></p>
-                    <h3><span>Agency</span> corporate shopno theme</h3>
-                </div>
-                <div class="contact-us">
-                    <button class="contact-us-button animate__animated animate__shakeX animate__repeat-1">
-                        contact us
-                    </button>
-                </div>
+<body id="body">
+    <h1 class="visually-hidden">UX/UI resume</h1>
+    <header class="home container" id="home_page">
+        <h2 class="visually-hidden">Home page</h2>
+        <nav class="header-navigation">
+            <ul class="header-nav-list">
+                <li class="header-nav-list-item">
+                    <a href="#home_page">Home</a>
+                </li>
+                <li class="header-nav-list-item">
+                    <a href="#about_me">About me</a>
+                </li>
+                <li class="header-nav-list-item">
+                    <a href="#my_skills">Skills</a>
+                </li>
+                <li class=" header-nav-list-item">
+                    <a href="#my_portfolio">Portfolio</a>
+                </li>
+                <li class="header-nav-list-item">
+                    <a href="#my_contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-main-info">
+            <div class="my-name-div">
+                <p class="my-name">Denis Novik</p>
             </div>
-        </section>
+            <div class="small-info">
+                <p>UX|UI designer</p>
+                <p>24 years old, Minsk</p>
+            </div>
+            <button class="select-language-btn">
+                <span class="full-text-in-btn">
+                    <span id="ru-lang">
+                        ru
+                    </span>
+                    |
+                    <span class="active-lang" id="en-lang">
+                        eng
+                    </span>
+                </span>
+            </button>
+        </div>
+        <picture class="header-my-photo photo-picture-block">
+            <source media="(max-width: 480px)" srcset="img/small_mephoto.png" width="316" height="478">
+            <img src="img/mephoto.png" alt="my photo" width="943" height="387">
+        </picture>
+        <!-- <div class="header-my-photo">
+            <img class="large-me-photo" src="img/mephoto.png" alt="my photo" width="943" height="387">
+            <img class="small-me-photo" src="img/small_mephoto.png" alt="my small photo" width="316" height="478">
+        </div> -->
     </header>
     <main>
-        <section class="about-us">
-            <div class="container" data-aos="fade-up" data-aos-duration="1500">
-                <div class="heading">
-                    <h2>about us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nobis.</p>
+        <section class="about-me container">
+            <!-- <div class="container"> -->
+            <div class="about-me-items" id="about_me" data-aos="fade-down" data-aos-duration="900">
+                <h2 class="heading">About me</h2>
+                <div class="first-block-about">
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything
+                        connected with it.</p>
                 </div>
-                <div class="about-us-content">
-                    <div class="slider_base">
-                        <div class="slider">
-                            <div class="slider_item ">
-                                <img src="img/first_slide.jpg" alt="first slide" width="390" height="480">
-                            </div>
-                            <div class="slider_item ">
-                                <img src="img/second_slide.jpg" alt="secind slide" width="390" height="480">
-                            </div>
-                            <div class="slider_item ">
-                                <img src="img/third_slide.jpg" alt="third slide" width="390" height="480">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-us-description">
-                        <div class="amazing-works">
-                            <h3>We Actually Do amazing works</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat enim vero laudantium
-                                neque incidunt ipsam
-                                eligendi saepe quia iste deserunt. Autem perspiciatis explicabo molestiae cumque facilis
-                                sed assumenda
-                                molestias earum corporis, consequuntur repudiandae accusantium, quos aut.</p>
-
-                        </div>
-                        <div class="great">
-                            <h3>Why we are great?</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex odit laudantium asperiores
-                                iste saepe
-                                repellendus id possimus expedita libero veniam?</p>
-                        </div>
-                    </div>
+                <div class="second-block-about">
+                    <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                </div>
+                <div class="third-block-about">
+                    <p>Ready to implement excellent projects with wonderful people.</p>
                 </div>
             </div>
+            <!-- </div> -->
         </section>
-        <section class="featured-works">
-            <div class="container" data-aos="fade-right" data-aos-duration="1500">
-                <div class="heading f-works-heading">
-                    <h2>featured works</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        <section class="skills container" id="my_skills">
+            <div class="skills-elements" data-aos="fade-up" data-aos-duration="1200">
+                <div class="skills-text">
+                    <h2 class="heading-two">Skills</h2>
+                    <p>I work in such programs as</p>
                 </div>
-                <ul class="featured-works-list">
-                    <li class="featured-works-item"><img src="img/works1.jpg" alt="work № 1" width="370" height="359">
+                <ul class="skills-programs-list">
+                    <li class="skills-programs-item">
+                        <figure>
+                            <img src="img/skill1.png" alt="photoshop" width="90" height="90">
+                            <figcaption>Adobe Photoshop</figcaption>
+                        </figure>
+                        <ul class="stars-list">
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item non_active ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="featured-works-item"><img src="img/works2.jpg" alt="work № 2" width="370" height="359">
+                    <li class="skills-programs-item">
+                        <figure>
+                            <img src="img/skill2.png" alt="illustrator" width="90" height="90">
+                            <figcaption>Adobe Illustrator</figcaption>
+                        </figure>
+                        <ul class="stars-list">
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item non_active ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item non_active ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="featured-works-item"><img src="img/works3.jpg" alt="work № 3" width="370" height="359">
+                    <li class="skills-programs-item">
+                        <figure>
+                            <img src="img/skill3.png" alt="after effects" width="90" height="90">
+                            <figcaption>Adobe After Effects</figcaption>
+                        </figure>
+                        <ul class="stars-list">
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item non_active ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="featured-works-item"><img src="img/works4.jpg" alt="work № 4" width="370" height="359">
-                    </li>
-                    <li class="featured-works-item"><img src="img/works5.jpg" alt="work № 5" width="370" height="359">
-                    </li>
-                    <li class="featured-works-item"><img src="img/works6.jpg" alt="work № 5" width="370" height="359">
+                    <li class="skills-programs-item">
+                        <figure>
+                            <img src="img/skill4.png" alt="figma" width="59" height="90">
+                            <figcaption>Figma</figcaption>
+                        </figure>
+                        <ul class="stars-list">
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-list-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                            <li class="stars-item non_active ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="our-services">
-            <div class="container" data-aos="fade-left" data-aos-duration="900">
-                <div class="heading">
-                    <h2>our services</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <ul class="our-services-list">
-                    <li class="our-services-item">
-                        <div class="services-overlay big-s-over">
-                            <h3>Designing is the cool love for
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vel nemo ea voluptatum,
-                                odit esse obcaecati architecto repellendus maiores commodi, dolore eos magni quas
-                                laboriosam hic doloremque corrupti asperiores libero voluptas nobis quia pariatur sit
-                                veniam? Perferendis, explicabo totam! Et explicabo, quod placeat sapiente cupiditate
-                                odit velit. Assumenda delectus unde officiis voluptatibus quidem porro alias aperiam
-                                commodi veritatis illum maxime facilis at temporibus inventore asperiores provident,
-                                molestias.</p>
-                            <button class="close-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" class="bi bi-x-lg"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="service-information big-s-inf">
-                            <h3>Designing is the cool love for
-                            </h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas deleniti iusto
-                                architecto, animi quas itaque sit repellat deserunt eveniet impedit.</p>
-                            <button class="know-more-btn">know more <span>&#8594;</span></button>
-                        </div>
-                        <img src="img/services1.jpg" alt="service 1 " width="652" height="422">
+        <section class="portfolio container" id="my_portfolio">
+            <div class="portfolio-items">
+                <h2 class="heading-two" data-aos="zoom-in-up" data-aos-duration="1000">Portfolio</h2>
+                <ul class="portfolio-list">
+                    <li class="portfolio-list-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <figure>
+                            <picture class="photo-picture-block">
+                                <source media="(max-width: 480px)" srcset="img/small_portfolio1.png" width="316"
+                                    height="176">
+                                <img src="img/portfolio1.png" alt="Online fashion store - Homepage" width="936"
+                                    height="510">
+                            </picture>
+                            <figcaption>Online fashion store - Homepage</figcaption>
+                        </figure>
                     </li>
-                    <li class="our-services-item">
-                        <div class="services-overlay small-s-over">
-                            <h3>Designing is the cool love for
-                            </h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed perspiciatis illum
-                                doloribus aperiam odio pariatur quo cumque! Cupiditate nisi non quaerat praesentium sit
-                                distinctio cumque architecto quibusdam repudiandae! Exercitationem, assumenda natus
-                                harum itaque quisquam impedit?</p>
-                            <button class="close-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" class="bi bi-x-lg"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="service-information small-s-inf">
-                            <h3>cool psd design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor accusamus sit facere ab
-                                magni.</p>
-                            <button class="know-more-btn">know more <span>&#8594;</span></button>
-                        </div>
-                        <img src="img/services2.jpg" alt="service 2" width="474" height="422">
+                    <li class="portfolio-list-item" data-aos="zoom-in-down" data-aos-duration="1000">
+                        <figure>
+                            <picture class="photo-picture-block">
+                                <source media="(max-width: 480px)" srcset="img/small_portfolio2.png" width="316"
+                                    height="176">
+                                <img src="img/portfolio2.png" alt="Online fashion store - Homepage" width="936"
+                                    height="510">
+                            </picture>
+                            <figcaption>Reebok Store - Concept</figcaption>
+                        </figure>
                     </li>
-                    <li class="our-services-item">
-                        <div class="services-overlay big-s-over">
-                            <h3>Designing is the cool love for
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vel nemo ea voluptatum,
-                                odit esse obcaecati architecto repellendus maiores commodi, dolore eos magni quas
-                                laboriosam hic doloremque corrupti asperiores libero voluptas nobis quia pariatur sit
-                                veniam? Perferendis, explicabo totam! Et explicabo, quod placeat sapiente cupiditate
-                                odit velit. </p>
-                            <button class="close-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" class="bi bi-x-lg"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="service-information big-s-inf">
-                            <h3>Designing is cool
-                            </h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas deleniti iusto
-                                architecto, animi quas itaque sit repellat deserunt eveniet impedit.</p>
-                            <button class="know-more-btn">know more <span>&#8594;</span></button>
-                        </div>
-                        <img src="img/services3.jpg" alt="service 3" width="652" height="371">
-                    </li>
-                    <li class="our-services-item">
-                        <div class="services-overlay small-s-over">
-                            <h3>Designing is the cool love for
-                            </h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed perspiciatis illum
-                                doloribus aperiam odio pariatur quo cumque! Cupiditate nisi non quaerat praesentium sit
-                                distinctio cumque.</p>
-                            <button class="close-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" class="bi bi-x-lg"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="service-information small-s-inf">
-                            <h3>Psd to thml kori</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor accusamus sit facere ab
-                                magni.</p>
-                            <button class="know-more-btn">know more <span>&#8594;</span></button>
-                        </div>
-                        <img src="img/services4.jpg" alt="service 4" width="474" height="370">
-                    </li>
-                    <li class="our-services-item">
-                        <div class="services-overlay small-s-over">
-                            <h3>Designing is the cool love for
-                            </h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed perspiciatis illum
-                                doloribus aperiam odio pariatur quo cumque! Cupiditate nisi non quaerat praesentium sit
-                                distinctio cumque</p>
-                            <button class="close-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" class="bi bi-x-lg"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="service-information small-s-inf">
-                            <h3>cool psd design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor accusamus sit.</p>
-                            <button class="know-more-btn">know more <span>&#8594;</span></button>
-                        </div>
-                        <img src="img/services5.jpg" alt="service 5" width="474" height="370">
-                    </li>
-                    <li class="our-services-item">
-                        <div class="services-overlay big-s-over">
-                            <h3>Designing is the cool love for
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vel nemo ea voluptatum,
-                                odit esse obcaecati architecto repellendus maiores commodi, dolore eos magni quas
-                                laboriosam hic doloremque corrupti asperiores libero voluptas nobis quia pariatur sit
-                                veniam?</p>
-                            <button class="close-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" class="bi bi-x-lg"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="service-information small-s-inf">
-                            <h3>Designing is the cool for</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor accusamus sit.</p>
-                            <button class="know-more-btn">know more <span>&#8594;</span></button>
-                        </div>
-                        <img src="img/services6.jpg" alt="service 6" width="652" height="371">
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="small-team">
-            <div class="container" data-aos="fade-down" data-aos-duration="1500">
-                <div class="heading">
-                    <h2>small team</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <ul class="team-list">
-                    <li class="team-item">
-                        <div class="team-item-description">
-                            <div class="team-item-message">
-                                <div class="team-item-description-text">
-                                    <h3>Ken Rempel<span>/ UI Designer</span></h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" class="bi bi-facebook" viewBox="0 0 16 16">
-                                        <path
-                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                                    </svg></a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-github"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <img src="img/team1.jpg" alt="team person 1">
-
-                    </li>
-                    <li class="team-item">
-                        <div class="team-item-description">
-                            <div class="team-item-message">
-                                <div class="team-item-description-text">
-                                    <h3>Nathanael Green<span>/ JS developer</span></h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" class="bi bi-facebook" viewBox="0 0 16 16">
-                                        <path
-                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                                    </svg></a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-github"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <img src="img/team2.jpg" alt="team person 2">
-                    </li>
-                    <li class="team-item">
-                        <div class="team-item-description">
-                            <div class="team-item-message">
-                                <div class="team-item-description-text">
-                                    <h3>Vallie Konopelski<span>/ Team Lead</span></h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" class="bi bi-facebook" viewBox="0 0 16 16">
-                                        <path
-                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                                    </svg></a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-github"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <img src="img/team3.jpg" alt="team person 3">
-                    </li>
-                    <li class="team-item">
-                        <div class="team-item-description">
-                            <div class="team-item-message">
-                                <div class="team-item-description-text">
-                                    <h3>Alfred Koss<span>/ Manager</span></h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" class="bi bi-facebook" viewBox="0 0 16 16">
-                                        <path
-                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                                    </svg></a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-github"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <img src="img/team4.jpg" alt="team person 4">
-                    </li>
-                    <li class="team-item">
-                        <div class="team-item-description">
-                            <div class="team-item-message">
-                                <div class="team-item-description-text">
-                                    <h3>Ken Rempel<span>/ UI Designer</span></h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" class="bi bi-facebook" viewBox="0 0 16 16">
-                                        <path
-                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                                    </svg></a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-github"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <img src="img/team5.jpg" alt="team person 5">
-                    </li>
-                    <li class="team-item">
-                        <div class="team-item-description">
-                            <div class="team-item-message">
-                                <div class="team-item-description-text">
-                                    <h3>Gordon Hackett<span>/ e-commerce</span></h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" class="bi bi-facebook" viewBox="0 0 16 16">
-                                        <path
-                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                                    </svg></a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-github"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <img src="img/team2.jpg" alt="team person 6">
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="quotes">
-            <div class="container" data-aos="zoom-in" data-aos-duration="1500">
-                <div class="heading">
-                    <h2>what they says</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit!</p>
-                </div>
-                <div class="double-slider">
-                    <div class="small-slider-base">
-                        <div class="quotes-small-slider">
-                            <div class="slider_item ">
-                                <img src="img/team1.jpg" alt="first slide" width="319" height="410">
-                            </div>
-                            <div class="slider_item ">
-                                <img src="img/team2.jpg" alt="first slide" width="319" height="410">
-                            </div>
-                            <div class="slider_item ">
-                                <img src="img/team3.jpg" alt="first slide" width="319" height="410">
-                            </div>
-                            <div class="slider_item ">
-                                <img src="img/team4.jpg" alt="first slide" width="319" height="410">
-                            </div>
-                            <div class="slider_item ">
-                                <img src="img/team5.jpg" alt="first slide" width="319" height="410">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="big-slider-base">
-                        <div class="quotes-big-slider">
-                            <div class="big-slider-item">
-                                <h3>Ken Remoel<span>UI Designer</span></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde deleniti ea quos non
-                                    nam
-                                    perferendis alias consequuntur tenetur minima quo maiores, praesentium quisquam,
-                                    corporis nobis ducimus officiis beatae optio quis!</p>
-                                <div class="stars">
-                                    <span>★★★★</span>
-                                </div>
-
-                            </div>
-                            <div class="big-slider-item">
-                                <h3>nathanael green<span>JS Developer</span></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde deleniti ea quos non
-                                    nam
-                                    perferendis alias consequuntur tenetur minima quo maiores, praesentium quisquam,
-                                    corporis nobis ducimus officiis beatae optio quis!</p>
-                                <div class="stars">
-                                    <span>★★★★</span>
-                                </div>
-                            </div>
-                            <div class="big-slider-item">
-                                <h3>vallie konopelski<span>Team Lead</span></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde deleniti ea quos non
-                                    nam
-                                    perferendis alias consequuntur tenetur minima quo maiores, praesentium quisquam,
-                                    corporis nobis ducimus officiis beatae optio quis!</p>
-                                <div class="stars">
-                                    <span>★★★★</span>
-                                </div>
-                            </div>
-                            <div class="big-slider-item">
-                                <h3>alfred koss<span>Manager</span></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde deleniti ea quos non
-                                    nam
-                                    perferendis alias consequuntur tenetur minima quo maiores, praesentium quisquam,
-                                    corporis nobis ducimus officiis beatae optio quis!</p>
-                                <div class="stars">
-                                    <span>★★★★</span>
-                                </div>
-                            </div>
-                            <div class="big-slider-item">
-                                <h3>ken rempel<span>e-commerce</span></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde deleniti ea quos non
-                                    nam
-                                    perferendis alias consequuntur tenetur minima quo maiores, praesentium quisquam,
-                                    corporis nobis ducimus officiis beatae optio quis!</p>
-                                <div class="stars">
-                                    <span>★★★★</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="big-slider-arrows">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="company-logos">
-            <h2 class="visually-hidden">Our sponsors</h2>
-            <div class="container">
-                <div class="company-logo-lists">
-                    <ul class="up-c-logos-list">
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo1.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo2.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo3.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="down-c-logos-list">
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo4.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo5.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo6.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo7.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo8.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                        <li class="logos-item">
-                            <a href="#">
-                                <img src="img/Clogo9.png" alt="company logo" width="150" height="100">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="feedback">
-            <h2 class="visually-hidden">Feedback</h2>
-            <div class="container" data-aos="fade-down" data-aos-duration="1500">
-                <ul class="feedback-list">
-                    <li class="feedback-item feedback-item-big">
-                        <form class="feedback-form-message" action="">
-                            <p><input type="text" required placeholder="Name*"></p>
-                            <p><input type="text" required placeholder="Subject*"></p>
-                            <p><input type="email" required placeholder="E-mail*"></p>
-                            <p><textarea name="message" cols="20" rows="5" required placeholder="Message*"></textarea>
-                            </p>
-                            <button type="submit">send message</button>
-                        </form>
-                    </li>
-                    <li class="feedback-item feedback-item-small">
-                        <form action="">
-                            <div class="feedback-data">
-                                <p>
-                                <address>Adress line 1</address>
-                                </p>
-                                <p>
-                                <address>Adress line 2</address>
-                                </p>
-                                <p>
-                                <address>Phone: 661-971-8780</address>
-                                </p>
-                                <p>
-                                <address>Fax: 789-842-5641</address>
-                                </p>
-                            </div>
-                            <div class="feedback-e-adress">
-                                <p>
-                                <address>Web: designeagency.net</address>
-                                </p>
-                                <p>
-                                <address>E-mail: info@designeagency.net</address>
-                                </p>
-                            </div>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92941.2175302012!2d30.19583861640625!3d53.9057511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d051e126288257%3A0x7262cf80bd057a45!2sCyber%20Cradle!5e1!3m2!1sru!2sby!4v1670916522346!5m2!1sru!2sby"
-                                width="455" height="224" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </form>
+                    <li class="portfolio-list-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <figure>
+                            <picture class="photo-picture-block">
+                                <source media="(max-width: 480px)" srcset="img/small_portfolio3.png" width="316"
+                                    height="176">
+                                <img src="img/portfolio3.png" alt="Online fashion store - Homepage" width="936"
+                                    height="510">
+                            </picture>
+                            <figcaption>Braun Landing Page - Concept</figcaption>
+                        </figure>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
-    <footer>
-        <h2 class="visually-hidden"></h2>
-        <div class="container" data-aos="fade-up" data-aos-duration="1500">
-            <div class="footer-items">
-                <p class="follow">Follow us</p>
-                <ul class="footer-list">
-                    <li class="footer-list-item">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-pinterest"
-                                viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-list-item">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter"
-                                viewBox="0 0 16 16">
-                                <path
-                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-list-item">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-facebook"
-                                viewBox="0 0 16 16">
-                                <path
-                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-list-item">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-instagram"
-                                viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-                <p class="copy">Copyright Masum Parvej, All Rights Reserved</p>
+    <footer class="contacts container" id="my_contacts">
+        <div class="footer-items">
+            <div class="footer-text" data-aos="fade-left" data-aos-duration="800">
+                <h2 class="heading-two">Contacts</h2>
+                <p class="welcom">Want to know more or just chat?<br>
+                    You are welcome!</p>
             </div>
+            <button data-aos="fade-right" data-aos-duration="800">Send message</button>
+            <ul class="contacts-list" data-aos="fade-left" data-aos-duration="800">
+                <li class="contacts-list-item">
+                    <a href="#">
+                        <img src="img/contacts1.png" alt="LinkedIn" width="40" height="40">
+                    </a>
+                </li>
+                <li class="contacts-list-item">
+                    <a href="#">
+                        <img src="img/contacts2.png" alt="Instagram" width="40" height="40">
+                    </a>
+                </li>
+                <li class="contacts-list-item">
+                    <a href="#">
+                        <img src="img/contacts3.png" alt="Behance" width="40" height="40">
+                    </a>
+                </li>
+                <li class="contacts-list-item">
+                    <a href="#">
+                        <img src="img/contacts4.png" alt="Dribble" width="40" height="40">
+                    </a>
+                </li>
+            </ul>
+            <p class="link-me" data-aos="fade-right" data-aos-duration="800">Like me on<br>
+                LinkedIn, Instagram, Behance, Dribble</p>
         </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="js/slick.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
