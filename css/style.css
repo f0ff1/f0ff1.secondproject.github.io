@@ -203,10 +203,26 @@ p {
 
 .header-my-photo {
     margin-bottom: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-me-photo {
+    display: none;
+}
+
+.about-me {
+    background-color: #F6F6F6;
+    /* background-color: red; */
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 107px 0;
 }
 
 .about-me-items {
-    width: 485px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -218,23 +234,66 @@ p {
 }
 
 .first-block-about {
-    padding-top: 27px;
+    margin-top: 27px;
+    width: 485px;
 }
 
 .second-block-about {
-    padding-top: 37px;
+    margin-top: 37px;
     width: 400px;
 }
 
 .third-block-about {
-    padding-top: 37px;
-    width: 315px;
+    margin-top: 37px;
+    width: 318px;
 }
 
-.about-me {
-    background: #F6F6F6;
-    padding: 120px 0 107px 0;
+@media (max-width: 950px) {
+    .container {
+        width: 100%;
+    }
+
+    .first-block-about {
+        width: 50%;
+    }
+
+    .second-block-about {
+        width: 50%;
+    }
+
+    .third-block-about {
+        width: 50%;
+    }
+
+    .skills-programs-list {
+        flex-direction: column;
+    }
+
+    .skills-programs-item {
+        margin-bottom: 82px;
+    }
+
+    .skills-programs-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .skills {
+        padding: 83px 0 28px 0;
+    }
+
+    .small-me-photo {
+        display: block;
+    }
+
+    .large-me-photo {
+        display: none;
+    }
+
+
 }
+
+
+
 
 .skills-elements {
     display: flex;
@@ -291,6 +350,7 @@ p {
 .portfolio {
     background: #F6F6F6;
     padding-top: 113px;
+    padding-bottom: 96px;
 }
 
 .portfolio-list-item figcaption {
@@ -298,15 +358,19 @@ p {
     line-height: 22px;
     text-decoration-line: underline;
     color: #070707;
-    padding-top: 45px;
-}
-
-.portfolio-list-item {
-    padding-bottom: 99px;
+    margin-top: 45px;
 }
 
 .portfolio-items h2 {
     margin-bottom: 47px;
+}
+
+.portfolio-list-item {
+    margin-bottom: 99px;
+}
+
+.portfolio-list-item:last-child {
+    margin-bottom: 0px;
 }
 
 footer {
